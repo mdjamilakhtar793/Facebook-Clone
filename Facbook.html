@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="Facebook.css" />
+    <script
+      src="https://kit.fontawesome.com/cb07b75189.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="Facbook.html">
+          <img src="images/logo.png" class="logo" />
+        </a>
+        <ul>
+          <li><img src="images/notification.png" alt="" /></li>
+          <li><img src="images/inbox.png" alt="" /></li>
+          <li><img src="images/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icons online">
+          <img src="images/profile-pic.png" alt="" onclick="settingMenuBar()" />
+        </div>
+      </div>
+      <!-- Drop Down Menu Bar -->
+      <div class="setting">
+        <!-- Color SwitcherMode -->
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="setting-m-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>JohnSon</p>
+              <a href="UserProfile.html">See your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feadback</p>
+              <a href="#">Help Us to Improve new Design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting-links">
+            <img src="images/setting.png" class="setting-icons" />
+            <a href="#">
+              Setting & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <div class="setting-links">
+            <img src="images/help.png" class="setting-icons" />
+            <a href="#">
+              Helps & Supports <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <div class="setting-links">
+            <img src="images/display.png" class="setting-icons" />
+            <a href="#">
+              Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/logout.png" class="setting-icons" />
+            <a href="#"> Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- Left Sidebar -->
+      <div class="left-sidebar">
+        <div class="important-link">
+          <a href="#"> <img src="images/news.png" /> Latest News </a>
+          <a href="#"> <img src="images/friends.png" /> Friends </a>
+          <a href="#"> <img src="images/group.png" /> Groups </a>
+          <a href="#"> <img src="images/marketplace.png" /> MarketPlace </a>
+          <a href="#"> <img src="images/watch.png" /> Watch </a>
+          <a href="#"> See More </a>
+        </div>
+        <div class="srt-link">
+          <p>Your Shortcuts</p>
+          <a href="#"><img src="images/shortcut-1.png" />Web Developer</a>
+          <a href="#"><img src="images/shortcut-2.png" />DevOps</a>
+          <a href="#"><img src="images/shortcut-3.png" />Full Stack</a>
+          <a href="#"
+            ><img src="images/shortcut-4.png" />React & React Native</a
+          >
+        </div>
+      </div>
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="story-g">
+          <div class="story story1">
+            <img src="images/upload.png" />
+            <p>J Mona</p>
+          </div>
+          <div class="story story2">
+            <img src="images/member-1.png" />
+            <p>Elics Herry</p>
+          </div>
+          <div class="story story3">
+            <img src="images/member-2.png" />
+            <p>Santon d</p>
+          </div>
+          <div class="story story4">
+            <img src="images/member-3.png" />
+            <p>Sam Snas</p>
+          </div>
+          <div class="story story5">
+            <img src="images/member-5.png" />
+            <p>Mohammad</p>
+          </div>
+        </div>
+        <!-- Story Gallary -->
+        <div class="write-p-container">
+          <!-- User Profile -->
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>JohnSon</p>
+              <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-i-container">
+            <textarea
+              rows="3"
+              placeholder="What's your mind on jhon"
+            ></textarea>
+            <div class="post-add-link">
+              <a href="#"> <img src="images/live-video.png" />Live Video</a>
+              <a href="#"> <img src="images/photo.png" />Photo/Video</a>
+              <a href="#"> <img src="images/feeling.png" />Felling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post Section -->
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>JohnSon</p>
+                <span>Aug 24 2023 13:40:PM</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+          </div>
+
+          <p class="post-t">
+            Follow <span>@mdjamilakhtar786</span> LinkedIn to more Information
+            website Development And App Design. <a href="#">LinkedIn</a>
+            <a href="#"><a href="#">Glassdoor</a></a>
+          </p>
+          <img src="images/feed-image-1.png" class="image-post" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" />120</div>
+              <div><img src="images/comments.png" />35</div>
+              <div><img src="images/share.png" />20</div>
+            </div>
+            <div class="post-p-icons">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>JohnSon</p>
+                <span>Aug 24 2023 13:40:PM</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+          </div>
+
+          <p class="post-t">
+            Follow <span>@mdjamilakhtar786</span> LinkedIn to more Information
+            website Development And App Design. <a href="#">LinkedIn</a>
+            <a href="#"><a href="#">Glassdoor</a></a>
+          </p>
+          <img src="images/feed-image-4.png" class="image-post" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" />120</div>
+              <div><img src="images/comments.png" />35</div>
+              <div><img src="images/share.png" />20</div>
+            </div>
+            <div class="post-p-icons">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>JohnSon</p>
+                <span>Aug 24 2023 13:40:PM</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+          </div>
+
+          <p class="post-t">
+            Follow <span>@mdjamilakhtar786</span> LinkedIn to more Information
+            website Development And App Design. <a href="#">LinkedIn</a>
+            <a href="#"><a href="#">Glassdoor</a></a>
+          </p>
+          <img src="images/feed-image-2.png" class="image-post" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" />120</div>
+              <div><img src="images/comments.png" />35</div>
+              <div><img src="images/share.png" />20</div>
+            </div>
+            <div class="post-p-icons">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>JohnSon</p>
+                <span>Aug 24 2023 13:40:PM</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i> </a>
+          </div>
+
+          <p class="post-t">
+            Follow <span>@mdjamilakhtar786</span> LinkedIn to more Information
+            website Development And App Design. <a href="#">LinkedIn</a>
+            <a href="#"><a href="#">Glassdoor</a></a>
+          </p>
+          <img src="images/feed-image-3.png" class="image-post" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" />120</div>
+              <div><img src="images/comments.png" />35</div>
+              <div><img src="images/share.png" />20</div>
+            </div>
+            <div class="post-p-icons">
+              <img src="images/profile-pic.png" /><i
+                class="fa-solid fa-caret-down"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="load-more">Load More</button>
+      </div>
+      <!-- Right Sidebar -->
+      <div class="right-sidebar">
+        <!-- Events Parts -->
+        <div class="title-sidebar">
+          <h4>Events</h4>
+          <a href="#">See All Events</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>05</h3>
+            <span>September</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p>Date & Time :<span>12-Oct-2023 : 01:00 PM</span></p>
+
+            <p>
+              <i class="fa-solid fa-street-view"></i> Jem-Tech Parks Chennai
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>October</span>
+          </div>
+          <div class="right-event">
+            <h4>Graduation Days</h4>
+            <p>Date & Time :<span>12-Oct-2023 : 01:00 PM</span></p>
+            <p><i class="fa-solid fa-street-view"></i> AVIT Collage Chennai</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <!-- Advertisement -->
+        <div class="title-sidebar">
+          <h4>Advertisement</h4>
+
+          <a href="#">Close</a>
+        </div>
+        <img src="images/advertisement.png" class="ads-sidebar" />
+
+        <!-- User Active details -->
+        <div class="title-sidebar">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-1.png" />
+          </div>
+          <p>Amit Kumar</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-3.png" />
+          </div>
+          <p>Alina K Raees</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-2.png" />
+          </div>
+          <p>Ankit Kumar</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>@Copyright 2023 - Jem-Tech Solution</p>
+    </div>
+    <script src="Facebooks.js"></script>
+  </body>
+</html>
